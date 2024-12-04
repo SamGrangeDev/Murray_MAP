@@ -301,6 +301,7 @@ function onPointerMove(evt) {
             closer.blur();
         }
     };
+
 map.on('pointermove', onPointerMove);
 
 var popupContent = '';
